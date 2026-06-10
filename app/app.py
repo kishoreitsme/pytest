@@ -7,4 +7,5 @@ def home():
     return "hi this is from python code"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    # IMPORTANT: host must be 0.0.0.0 for Docker
+    app.run(host="0.0.0.0", port=5000
